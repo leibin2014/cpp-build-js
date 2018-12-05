@@ -1,0 +1,35 @@
+{
+  "name": "cpp-build-js",
+  "version": "1.0.0",
+  "description": "A CLI application for processing C/C++ build scripts written in Javascript and taking advantage of the Node.JS runtime.",
+  "main": "lib/index.js",
+  "preferGlobal": true,
+  "bin": {
+    "cpp-build": "bin/main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgdev1024/cpp-build-js.git"
+  },
+  "keywords": [
+    "c",
+    "c++",
+    "cpp",
+    "cli",
+    "javascript",
+    "node"
+  ],
+  "author": "Dennis Griffin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgdev1024/cpp-build-js/issues"
+  },
+  "homepage": "https://github.com/dgdev1024/cpp-build-js#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "rimraf": "^2.6.2"
+  }
+}
