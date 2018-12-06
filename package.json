@@ -1,6 +1,6 @@
 {
   "name": "cpp-build-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI application for processing C/C++ build scripts written in Javascript and taking advantage of the Node.JS runtime.",
   "main": "lib/index.js",
   "preferGlobal": true,
